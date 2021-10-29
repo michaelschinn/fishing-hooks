@@ -37,7 +37,7 @@ function App() {
           </Nav>
           <Nav className="ms-auto">
             <Nav.Item><Nav.Link onClick={handleShow}>Cart</Nav.Link></Nav.Item>
-            <Nav.Item><Nav.Link>Login / Logout</Nav.Link></Nav.Item>
+            <Nav.Item><Nav.Link><Link to="/register">Login / Logout</Link></Nav.Link></Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
